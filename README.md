@@ -19,7 +19,7 @@ https://cdn.jsdelivr.net/gh/botent/andhera-css/src/root.min.css
 
 ### Documentation
 
-Full reference can be found at [Andhera CSS](https://github.io)
+Full reference can be found at [Andhera CSS](https://botent.github.io/andhera-css/)
 
 ### License
 
