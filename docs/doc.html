@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="/root.css">
+    <title>Andhera CSS Sample</title>
+</head>
+<body>
+    <div class="sidebar-container">
+        <a href="#introduction">Introduction</a>
+        <a href="#gridLayout">Grid Layout</a>
+        <a href="#components">Components</a>
+        <a href="#typography">Typography</a>
+    </div>
+    <div class="container" id="introduction">
+        <p class="text-extra-large-l">Introduction</p>
+        <hr>
+        <p class="text-extra-small-l">
+            Andhera CSS is my learning attempt towards becoming a UX-first full stack developer. The primary basis of this reference is dark-theme styles. 
+            All the components, layouts, and elements are described here for use.
+
+            <p class="extra-small-el">Feel free to chip in and let me know what needs to be done to make it better. The <a href="https://github.com/users/botent/projects/3">GitHub Project</a> is open for suggestions/issues/bugs etc.</p>
+        </p>
+    </div>
+
+    <div class="container mt-5" id="gridLayout">
+        <p class="text-extra-large-l">Grid Layout</p>
+        <hr>
+        <p class="text-extra-small-el">
+            Inspired by Bootstrap, this (again) is a 12 column layout. The breakpoints and corresponding classes are as -
+            <table class="table table-center">
+                <tr>
+                    <th>Screen Width</th>
+                    <th>Breakpoint Ref</th>
+                </tr>
+                <tr class="text-center">
+                    <td> <576px </td>
+                    <td> col-*</td>
+                </tr>
+                <tr class="text-center">
+                    <td> <768px </td>
+                    <td> col-sm-*</td>
+                </tr>
+                <tr class="text-center">
+                    <td> <992px </td>
+                    <td> col-md-*</td>
+                </tr>
+                <tr class="text-center">
+                    <td> <1200px </td>
+                    <td> col-lg-*</td>
+                </tr>
+                <tr class="text-center">
+                    <td> >1200px </td>
+                    <td> col-xl-*</td>
+                </tr>
+            </table>
+        </p>
+        <p class="text-extra-small-el">Padding and Margins</p>
+        <p><b>m-*</b> corresponds to margins on all sides (with same values) and for specific purposes <b>m[SIDE]-*</b> can be used. Padding is followed in a similar fashion.</p>
+        <div>
+            <table class="table table-center">
+                <tr>
+                    <th>SIDE</th>
+                    <th>Reference</th>
+                </tr>
+                <tr class="text-center">
+                    <td>Top</td>
+                    <td>t</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Bottom</td>
+                    <td>b</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Start/Left</td>
+                    <td>s</td>
+                </tr>
+                <tr class="text-center">
+                    <td>End/Right</td>
+                    <td>e</td>
+                </tr>
+            </table>
+        </div>
+        <div class="mt-5">
+            <table class="table table-center">
+                <tr>
+                    <th>Class</th>
+                    <th>Margin Val</th>
+                </tr>
+                <tr class="text-center">
+                    <td>m[SIDE]-1</td>
+                    <td>1.00 rem</td>
+                </tr>
+                <tr class="text-center">
+                    <td>m[SIDE]-2</td>
+                    <td>1.25 rem</td>
+                </tr>
+                <tr class="text-center">
+                    <td>m[SIDE]-3</td>
+                    <td>1.50 rem</td>
+                </tr>
+                <tr class="text-center">
+                    <td>m[SIDE]-4</td>
+                    <td>1.75 rem</td>
+                </tr>
+                <tr class="text-center">
+                    <td>m[SIDE]-5</td>
+                    <td>2.00 rem</td>
+                </tr>
+            
+            </table>
+        </div>
+        <hr>
+        <div class="row mt-1">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 100% Width</p></div>
+        </div>
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 50% Width</p></div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 50% Width</p></div>
+        </div>
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 25% Width</p></div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 25% Width</p></div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 25% Width</p></div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 25% Width</p></div>
+        </div>
+        <div class="row">
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-1 pt-5 pb-5" style="background-color: #242440; border-style:solid"><p>Column with 8.33% Width</p></div>
+        </div>
+    </div>
+    <div class="container mt-5" id="components">
+        <p class="text-extra-large-l">Components</p>
+        <hr>
+        <p class="text-extra-small-el">
+            For Buttons, the following styles are included -
+            <table class="table table-center">
+                <tr class="text-center">
+                    <th>Type</th>
+                    <th>Color</th>
+                    <th>Preview</th>
+                </tr>
+                <tr class="text-center">
+                    <td>Primary</td>
+                    <td>#242440</td>
+                    <td><a class="button-primary">Button</a></td>
+                </tr>
+                <tr class="text-center">
+                    <td>Success</td>
+                    <td>#2AA39A</td>
+                    <td><a class="button-success">Button</a></td>
+                </tr>
+                <tr class="text-center">
+                    <td>Danger</td>
+                    <td>#EC4561</td>
+                    <td><a class="button-danger">Button</a></td>
+                </tr>
+                <tr class="text-center">
+                    <td>Warning</td>
+                    <td>#F8B425</td>
+                    <td><a class="button-warning">Button</a></td>
+                </tr>
+                <tr class="text-center">
+                    <td>Info</td>
+                    <td>#38A5F8</td>
+                    <td><a class="button-info">Button</a></td>
+                </tr>
+            </table>
+        </p>
+    </div>
+    <div class="container mt-5" id="typography">
+        <p class="text-extra-large-l">Typography</p>
+        <hr>
+        <p class="text-extra-small-el">
+            The default font used is Poppins and the font size and font weight references are as -
+        </p>
+        <div class="mt-5">
+            <table class="table table-center">
+                <tr>
+                    <th>Size</th>
+                    <th>Class Reference</th>
+                    <th>Value</th>
+                </tr>
+                <tr class="text-center">
+                    <td>Extra Small</td>
+                    <td>extra-small</td>
+                    <td>1.5rem</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Small</td>
+                    <td>small</td>
+                    <td>2.5rem</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Medium</td>
+                    <td>medium</td>
+                    <td>3rem</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Large</td>
+                    <td>large</td>
+                    <td>3.5rem</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Extra Large</td>
+                    <td>extra-large</td>
+                    <td>4rem</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Jumbo</td>
+                    <td>jumbo</td>
+                    <td>5rem</td>
+                </tr>
+            </table>
+        </div>
+        <div class="mt-5">
+            <table class="table table-center">
+                <tr>
+                    <th>Weight</th>
+                    <th>Class Reference</th>
+                    <th>Value</th>
+                </tr>
+                <tr class="text-center">
+                    <td>Extra Light</td>
+                    <td>el</td>
+                    <td>200</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Light</td>
+                    <td>l</td>
+                    <td>300</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Normal</td>
+                    <td>n</td>
+                    <td>400</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Semi-Bold</td>
+                    <td>sb</td>
+                    <td>500</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Bold</td>
+                    <td>b</td>
+                    <td>700</td>
+                </tr>
+                <tr class="text-center">
+                    <td>Extra Bold</td>
+                    <td>eb</td>
+                    <td>900</td>
+                </tr>
+            </table>
+        </div>
+        <div class="mt-5">
+            <p class="text-extra-small-el">Extra Small Extra Light Text</p>
+            <p class="text-extra-small-l">Extra Small Light Text</p>
+            <p class="text-extra-small-n">Extra Small Normal Text</p>
+            <p class="text-extra-small-sb">Extra Small Semi Bold Text</p>
+            <p class="text-extra-small-b">Extra Small Bold Text</p>
+            <p class="text-extra-small-eb">Extra Small Extra Bold Text</p>
+        </div>
+        <div class="mt-5">
+            <p class="text-small-el">Small Extra Light Text</p>
+            <p class="text-small-l">Small Light Text</p>
+            <p class="text-small-n">Small Normal Text</p>
+            <p class="text-small-sb">Small Semi Bold Text</p>
+            <p class="text-small-b">Small Bold Text</p>
+            <p class="text-small-eb">Small Extra Bold Text</p>
+        </div>
+        <div class="mt-5">
+            <p class="text-medium-el">Medium Extra Light Text</p>
+            <p class="text-medium-l">Medium Light Text</p>
+            <p class="text-medium-n">Medium Normal Text</p>
+            <p class="text-medium-sb">Medium Semi Bold Text</p>
+            <p class="text-medium-b">Medium Bold Text</p>
+            <p class="text-medium-eb">Medium Extra Bold Text</p>
+        </div>
+        <div class="mt-5">
+            <p class="text-large-el">Large Extra Light Text</p>
+            <p class="text-large-l">Large Light Text</p>
+            <p class="text-large-n">Large Normal Text</p>
+            <p class="text-large-sb">Large Semi Bold Text</p>
+            <p class="text-large-b">Large Bold Text</p>
+            <p class="text-large-eb">Large Extra Bold Text</p>
+        </div>
+        <div class="mt-5">
+            <p class="text-extra-large-el">Extra Large Extra Light Text</p>
+            <p class="text-extra-large-l">Extra Large Light Text</p>
+            <p class="text-extra-large-n">Extra Large Normal Text</p>
+            <p class="text-extra-large-sb">Extra Large Semi Bold Text</p>
+            <p class="text-extra-large-b">Extra Large Bold Text</p>
+            <p class="text-extra-large-eb">Extra Large Extra Bold Text</p>
+        </div>
+        <div class="mt-5">
+            <p class="text-jumbo-el">Jumbo Extra Light Text</p>
+            <p class="text-jumbo-l">Jumbo Light Text</p>
+            <p class="text-jumbo-n">Jumbo Normal Text</p>
+            <p class="text-jumbo-sb">Jumbo Semi Bold Text</p>
+            <p class="text-jumbo-b">Jumbo Bold Text</p>
+            <p class="text-jumbo-eb">Jumbo Extra Bold Text</p>
+        </div>
+    </div>
+</body>
+</html>
