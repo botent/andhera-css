@@ -14,7 +14,7 @@
 
 Add the Stylesheet to the ```<head>``` of your HTML
 ```
-https://cdn.jsdelivr.net/gh/botent/andheracss/src/root.min.css
+https://cdn.jsdelivr.net/gh/botent/andhera-css/src/root.min.css
 ```
 
 ### Documentation
