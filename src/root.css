@@ -369,6 +369,14 @@ a {
   font-weight: 600;
 }
 
+input[type=text] {
+  background-color: #242440;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+
 p {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
@@ -450,6 +458,14 @@ p {
 .button-info:hover {
   cursor: pointer;
   scale: 1.05;
+}
+
+/* None Class -> override this to disable other CSS props */
+.none {
+  background-color: none;
+}
+.none:hover {
+  background-color: #242440 !important;
 }
 
 /* Typography Related */

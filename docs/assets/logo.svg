@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   sodipodi:docname="andheracsslogo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.73673541"
+     inkscape:cx="58.365594"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1920"
+     inkscape:window-height="1044"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient3024"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3022" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="BG">
+    <rect
+       style="opacity:1;fill:#19192e;fill-opacity:1;stroke:#19192e;stroke-width:1.53352;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:round"
+       id="rect13990"
+       width="178.25366"
+       height="108.44341"
+       x="18.547863"
+       y="87.324722" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:none;stroke:#e94560;stroke-width:2.065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect31"
+       width="88.415314"
+       height="72.809464"
+       x="85.559158"
+       y="108.88839" />
+    <rect
+       style="opacity:1;fill:#e94560;fill-opacity:1;stroke:#e94560;stroke-width:2.065;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect12570"
+       width="32.45969"
+       height="29.955532"
+       x="68.014839"
+       y="128.61287" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.1667px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fffdff;fill-opacity:1;stroke:none;stroke-width:0.361737"
+       x="31.553757"
+       y="141.93452"
+       id="text8464"
+       transform="scale(0.93726588,1.0669331)"><tspan
+         sodipodi:role="line"
+         id="tspan8462"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.1667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fffdff;fill-opacity:1;stroke-width:0.361737"
+         x="31.553757"
+         y="141.93452">ANDHERA CSS</tspan></text>
+  </g>
+</svg>
