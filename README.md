@@ -5,7 +5,7 @@
 ![GitHub](https://img.shields.io/github/license/botent/andhera-css?style=for-the-badge) ![Twitter Follow](https://img.shields.io/twitter/follow/KumarPeri?logo=twitter&style=for-the-badge) ![GitHub branch checks state](https://img.shields.io/github/checks-status/botent/andhera-css/master?style=for-the-badge) 
 
 ----
-&nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;     ![Image](./docs/assets/logo.svg)
+&nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;     ![Image](./docs/assets/logo_nobg.svg)
 
 *For the record, Andhera means Darkness in Hindi. ;-)* 
 
